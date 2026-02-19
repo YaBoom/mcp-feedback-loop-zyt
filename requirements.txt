@@ -1,0 +1,9 @@
+# MCP Feedback Loop - Dependencies
+
+# Feedback Sidecar
+fastapi>=0.100.0
+uvicorn[standard]
+httpx
+
+# Example MCP Server
+mcp>=1.0.0

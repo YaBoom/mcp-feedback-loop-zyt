@@ -38,8 +38,7 @@ mcp-feedback-loop-zyt/
 
 ```bash
 # 1. 启动反馈收集sidecar
-cd feedback_sidecar
-pip install fastapi uvicorn sqlite3
+pip install -r requirements.txt
 python server.py
 
 # 2. 启动示例MCP server

@@ -38,6 +38,14 @@ mcp-feedback-loop-zyt/
 
 ```bash
 # 1. 启动反馈收集sidecar
+
+# 创建新的虚拟环境
+python -m venv venv
+
+# 激活虚拟环境
+venv\Scripts\activate
+
+# 安装项目依赖
 pip install -r requirements.txt
 python server.py
 

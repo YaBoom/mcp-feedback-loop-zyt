@@ -51,7 +51,6 @@ python server.py
 
 # 2. 启动示例MCP server
 cd example_server
-pip install mcp
 python simple_server.py
 
 # 3. 打开dashboard查看反馈
